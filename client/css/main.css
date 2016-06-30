@@ -32,3 +32,22 @@ h6 {
   font-family: 'Roboto Slab', serif;
   color: #000000;
 }
+
+a:visited {
+  color:black;
+}
+
+#home {
+  background:white;
+  color:black;
+  font-family: 'Roboto Slab', serif;
+  width:250px;
+}
+
+
+#submit {
+  background:white;
+  color:black;
+  font-family: 'Roboto Slab', serif;
+  width:150px;
+}
