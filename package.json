@@ -22,11 +22,14 @@
   },
   "homepage": "https://github.com/rahmona-henry/origin#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "browserify": "^13.0.1",
     "express": "^4.14.0",
     "handlebars": "^4.0.5",
     "hbsfy": "^2.7.0",
+    "knex": "^0.11.7",
     "nodemon": "^1.9.2",
+    "pg": "^6.0.1",
     "uglifyify": "^3.0.2",
     "watchify": "^3.7.0"
   }
