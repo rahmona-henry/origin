@@ -16,6 +16,7 @@ app.get('/', function(req,res){
 })
 
 app.post('/add', function(req,res){
+  console.log('this is req.body', req.body.country)
   knex('customers').insert({country:req.body.country})
     .then(function(data){
           res.render('thankYou')

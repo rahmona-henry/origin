@@ -12,15 +12,21 @@
         <div id='content'>
   <h1 id='landingHeader'>Welcome to Gibbston Valley Winery</h1>
     <h2>Tell us what country you are from?</h2>
+
         <form action='/add' method='POST'>
-          <input type='text' placeholder='Country' name='country'>
+              <div class='six columns offset-by-two'>
+              <select class="u-full-width" id="exampleRecipientInput" name='country'>
+                <option name='country'>Australia</option>
+                  <option name='country'>United Kingdom</option>
+                    <option name='country'>Ireland</option>
+              </select>
+            </div>
           <input id='submit' type='submit' value='Submit'>
         </form>
 
           <h6>Origin by Rahmona Henry 2016</h6>
- </div>
+   </div>
       </div>
         <script src ='app.js'></script>
-
 </body>
 </html>
