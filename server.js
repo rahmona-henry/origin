@@ -16,7 +16,7 @@ app.get('/', function(req,res){
 })
 
 app.post('/add', function(req,res){
-  knex('customers').insert({country:req.body.country})
+  knex('customers').where({country:req.body.country}).increment('total',1)
     .then(function(data){
           res.render('thankYou')
     })
