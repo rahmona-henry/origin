@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>origin</title>
+<link rel="stylesheet" href="css/normalize.css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="css/skeleton.css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+  <div class='six columns offset-by-four container'>
+      <div id='content'>
+<h2 id='landingHeader'>Enter the country you would like to get the statistics for?</h2>
+      <form action='/stats' method='POST'>
+            <div class='six columns offset-by-two'>
+            <select class="u-full-width" id="exampleRecipientInput" name='country'>
+              <option name='country' id='{{this.id}}'>Australia</option>
+                <option name='country' id='{{this.id}}'>United Kingdom</option>
+                  <option name='country' id='{{this.id}}'>Ireland</option>
+            </select>
+          </div>
+        <input id='submit' type='submit' value='Submit'>
+      </form>
+
+        <h6>Origin by Rahmona Henry 2016</h6>
+ </div>
+    </div>
+</body>
+</html>
