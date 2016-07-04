@@ -25,30 +25,43 @@ body {
 
 }
 
+.primary-nav {
+  display: inline-block;
+  position: absolute;
+  top:20px;
+  right: 250px;
+}
 
 h1{
-  font-family: 'Roboto Slab', serif;
+  font-family:'Roboto Slab', serif;
   color: #fff;
 
 }
 h2 {
-  font-family: 'Roboto Slab', serif;
+  font-family:'Roboto Slab', serif;
   color: #fff;
 }
 
 h6 {
-  font-family: 'Roboto Slab', serif;
+  font-family:'Roboto Slab', serif;
   color: #000000;
 }
 
-a:visited {
-  color:black;
+a {
+  font-family:'Roboto Slab', serif;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
 }
 
 #home {
   background:white;
   color:black;
-  font-family: 'Roboto Slab', serif;
+  font-family:'Roboto Slab', serif;
   width:250px;
 }
 
@@ -56,6 +69,6 @@ a:visited {
 #submit {
   background:white;
   color:black;
-  font-family: 'Roboto Slab', serif;
+  font-family:'Roboto Slab', serif;
   width:150px;
 }
